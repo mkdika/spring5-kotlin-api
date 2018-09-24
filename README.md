@@ -1,6 +1,6 @@
-# Spring Kotlin API
+# Spring Kotlin REST API
 
-Spring 5 Kotlin REST API with Spring Boot 2 stacks.
+Spring 5 Kotlin REST API demo with Spring Boot 2 stacks.
 
 
 
