@@ -1,2 +1,29 @@
+info:
+  app:
+    description: Spring 5 Kotlin REST API Demo
+
 server:
   port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css
+
+spring:
+  application:
+    name: spring5-kotlin-api
+  datasource:
+    platform: h2
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        show_sql: false
+    hibernate:
+      ddl-auto: update
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  profiles:
+    active: dev
