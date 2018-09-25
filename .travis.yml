@@ -13,10 +13,10 @@ before_script:
 script:
   - ./gradlew check
   - ./gradlew test
-  - ./gradlew build
+  - ./gradlew jacocoTestReport
 
 after_success:
-  - codecov
+  - bash <(curl -s https://codecov.io/bash)
 
 branches:
   only:

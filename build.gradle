@@ -40,6 +40,18 @@ repositories {
 	mavenCentral()
 }
 
+jacoco {
+    // You may modify the Jacoco version here
+    toolVersion = "0.8.2"
+}
+
+jacocoTestReport {
+    // Adjust the output of the test report
+    reports {
+        xml.enabled true
+        csv.enabled false
+    }
+}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
