@@ -3,6 +3,7 @@ package com.mkdika.springkotlinapi.controller
 import com.mkdika.springkotlinapi.SpringKotlinApiApplication
 import com.mkdika.springkotlinapi.model.Customer
 import org.assertj.core.api.Assertions.assertThat
+import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.beans.factory.annotation.Autowired
@@ -25,7 +26,12 @@ class CustomerIT {
     @Autowired
     lateinit var testRestTemplate: TestRestTemplate
 
-    val headers = HttpHeaders()
+    lateinit var headers: HttpHeaders
+
+    @Before
+    fun `setup`() {
+        headers = HttpHeaders()
+    }
 
     @Test
     fun `given nothing when called findAllCustomer then should return list`() {

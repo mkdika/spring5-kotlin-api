@@ -11,6 +11,7 @@ class SpringKotlinApiApplicationTests {
 
 	@Test
 	fun contextLoads() {
+		com.mkdika.springkotlinapi.main(arrayOf(""))
 	}
 
 }
