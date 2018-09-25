@@ -81,7 +81,7 @@ class CustomerIT {
     }
 
     @Test
-    fun `given Customer with available id when updateCustomer then should return customer `() {
+    fun `given Customer with available id when updateCustomer then should return customer`() {
         val updateCustomer = Customer(id=2, firstName = "Maximilian",lastName = "Genus", balance = 55.55)
         val httpEntity = HttpEntity<Customer>(updateCustomer, headers)
         val result = testRestTemplate.exchange("/api/customer/2", HttpMethod.PUT, httpEntity, Customer::class.java)
@@ -92,7 +92,7 @@ class CustomerIT {
     }
 
     @Test
-    fun `given Customer with not available id when updateCustomer then should return customer `() {
+    fun `given Customer with not available id when updateCustomer then should return customer`() {
         val updateCustomer = Customer(id=99, firstName = "Maximilian",lastName = "Genus", balance = 55.55)
         val httpEntity = HttpEntity<Customer>(updateCustomer, headers)
         val result = testRestTemplate.exchange("/api/customer/99", HttpMethod.PUT, httpEntity, Customer::class.java)
