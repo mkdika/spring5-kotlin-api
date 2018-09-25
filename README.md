@@ -28,7 +28,7 @@ Spring 5 Kotlin REST API demo with Spring Boot 2 stacks. This project is consist
 gradlew clean build
 ```
 
-Find the built result at `/build/libs/spring-kotlin-api-1.0.0.jar
+Find the built result at `/build/libs/spring-kotlin-api-1.0.0.jar`
 
 ### Automatic Test
 
@@ -49,11 +49,15 @@ for __Jacoco__ coverage test result report.
 gradlew bootRun
 ```
 
-Access from local url: `http://localhost:8080/api/customer`
+Access from local url: `http://localhost:8080`
+
+
+### Test REST API Locally
 
 Test the REST API locally with [Curl](https://curl.haxx.se/download.html) or alternatively 
 you can use [Insomnia](https://insomnia.rest/) Web API Test, feel free to download my 
 Insomnia Workspace at [Here](https://goo.gl/Ck8L2J) and import into yours.
+
 
 ### REST API Endpoints
 
