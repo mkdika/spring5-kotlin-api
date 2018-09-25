@@ -12,6 +12,7 @@ Spring 5 Kotlin REST API demo with Spring Boot 2 stacks.
 
 - [Creating a RESTful Web Service with Spring Boot](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html)
 - [Building Restful APIs with Kotlin, Spring Boot, Mysql, JPA and Hibernate](https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial/)
+- [Spring Boot and Kotlin](https://www.baeldung.com/spring-boot-kotlin)
 
 ## Copyright and License
 
