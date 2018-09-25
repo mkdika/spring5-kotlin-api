@@ -53,7 +53,17 @@ Access from local url: `http://localhost:8080/api/customer`
 
 Test the REST API locally with [Curl](https://curl.haxx.se/download.html) or alternatively 
 you can use [Insomnia](https://insomnia.rest/) Web API Test, feel free to download my 
-Insomnia Workspace at [Here](https://goo.gl/Ck8L2J).
+Insomnia Workspace at [Here](https://goo.gl/Ck8L2J) and import into yours.
+
+### REST API Endpoints
+
+| HTTP Method | Path               | Description                          |
+| ----------- | ------------------ | ------------------------------------ |
+| GET         | /api/customer      | Get all existing customer data.      |
+| GET         | /api/customer/{id} | Get existing customer data by Id.    |
+| POST        | /api/customer      | Insert new customer data.            |
+| PUT         | /api/customer/{id} | update existing customer data by Id. |
+| DELETE      | /api/customer/{id} | Delete existing customer data by Id. |
 
 
 ## Reference
