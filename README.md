@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
 [![Build Status](https://travis-ci.org/mkdika/spring5-kotlin-api.svg?branch=master)](https://travis-ci.org/mkdika/spring5-kotlin-api)
+[![codecov](https://codecov.io/gh/mkdika/spring5-kotlin-api/branch/master/graph/badge.svg)](https://codecov.io/gh/mkdika/spring5-kotlin-api)
 [![codebeat badge](https://codebeat.co/badges/6d2b15f0-63b8-4a44-be7a-3a9c0e077040)](https://codebeat.co/projects/github-com-mkdika-spring5-kotlin-api-master)
 
 Spring 5 Kotlin REST API demo with Spring Boot 2 stacks.
@@ -16,6 +17,8 @@ Spring 5 Kotlin REST API demo with Spring Boot 2 stacks.
 - [Building Restful APIs with Kotlin, Spring Boot, Mysql, JPA and Hibernate](https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial/)
 - [Creating and Testing a Kotlin RESTful Web Services using Spring Boot](https://medium.com/@crsandeep/creating-and-testing-a-kotlin-restful-web-services-using-spring-boot-1a11aeda279e)
 - [More readable tests with Kotlin](https://www.tengio.com/blog/more-readable-tests-with-kotlin/)
+- [Test coverage in Kotlin with Jacoco](https://kevcodez.de/index.php/2018/08/test-coverage-in-kotlin-with-jacoco/)
+- [Codecov Kotlin Example](https://github.com/codecov/example-kotlin)
 
 ## Copyright and License
 
