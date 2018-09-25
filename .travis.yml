@@ -13,6 +13,7 @@ before_script:
 script:
   - ./gradlew check
   - ./gradlew test
+  - ./gradlew build
 
 after_success:
   - codecov
