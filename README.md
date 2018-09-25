@@ -5,9 +5,55 @@
 [![codecov](https://codecov.io/gh/mkdika/spring5-kotlin-api/branch/master/graph/badge.svg)](https://codecov.io/gh/mkdika/spring5-kotlin-api)
 [![codebeat badge](https://codebeat.co/badges/6d2b15f0-63b8-4a44-be7a-3a9c0e077040)](https://codebeat.co/projects/github-com-mkdika-spring5-kotlin-api-master)
 
-Spring 5 Kotlin REST API demo with Spring Boot 2 stacks.
+Spring 5 Kotlin REST API demo with Spring Boot 2 stacks. This project is consist of CRUD Web endpoint. 
 
 ![Imgur](https://i.imgur.com/F1ySiaN.png)
+
+
+## Tech Stack
+
+- Java8 (JDK 8 update 171)
+- [Kotlin 1.2.70](https://kotlinlang.org/)
+- [Spring Boot 2.0.5](http://spring.io/projects/spring-boot)
+- [Gradle 4.8.1](https://gradle.org/)
+- [H2DB](http://www.h2database.com/html/main.html)
+- [Undertow Web Server](http://undertow.io/)
+- [Jacoco](https://www.eclemma.org/jacoco/)
+
+## Build, Test & Run the Application
+
+### Build
+
+```console
+gradlew clean build
+```
+
+Find the built result at `/build/libs/spring-kotlin-api-1.0.0.jar
+
+### Automatic Test
+
+```console
+# run all test
+gradlew test
+
+# run coverage test report
+gradlew jacocoTestReport
+```
+
+Find the test result report at `/build/reports/test/` for __test__ result, and `/build/reports/jacoco` 
+for __Jacoco__ coverage test result report.
+
+### Run the Application
+
+```console
+gradlew bootRun
+```
+
+Access from local url: `http://localhost:8080/api/customer`
+
+Test the REST API locally with [Curl](https://curl.haxx.se/download.html) or alternatively 
+you can use [Insomnia](https://insomnia.rest/) Web API Test, feel free to download my 
+Insomnia Workspace at [Here](https://goo.gl/Ck8L2J).
 
 
 ## Reference

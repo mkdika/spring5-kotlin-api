@@ -16,12 +16,14 @@ import org.springframework.http.HttpStatus
 import org.springframework.test.annotation.DirtiesContext
 import org.springframework.test.context.junit4.SpringRunner
 
-
+/**
+ * Customer Controller Integration Test
+ */
 @RunWith(SpringRunner::class)
 @SpringBootTest(classes = arrayOf(SpringKotlinApiApplication::class),
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
-class CustomerIT {
+class CustomerControllerIT {
 
     @Autowired
     lateinit var testRestTemplate: TestRestTemplate
