@@ -1,6 +1,7 @@
 # Spring Kotlin REST API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
+[![Build Status](https://travis-ci.org/mkdika/spring5-kotlin-api.svg?branch=master)](https://travis-ci.org/mkdika/spring5-kotlin-api)
 [![codebeat badge](https://codebeat.co/badges/6d2b15f0-63b8-4a44-be7a-3a9c0e077040)](https://codebeat.co/projects/github-com-mkdika-spring5-kotlin-api-master)
 
 Spring 5 Kotlin REST API demo with Spring Boot 2 stacks.
